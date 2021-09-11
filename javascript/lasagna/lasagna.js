@@ -67,3 +67,5 @@ export function preparationTimeInMinutes(numberOfLayers) {
 export function totalTimeInMinutes(numberOfLayers, actualMinutesInOven) {
   throw new Error('Please implement the totalTimeInMinutes function');
 }
+
+const EXPECTED_MINUTES_IN_OVEN = 40
