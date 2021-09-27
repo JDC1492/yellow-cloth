@@ -38,7 +38,7 @@ export function dayRate(ratePerHour) {
  * @returns {number} the rounded up monthly rate
  */
 export function monthRate(ratePerHour, discount) {
-  throw new Error("Implement the monthRate function");
+  // throw new Error("Implement the monthRate function");
 }
 
 /**
