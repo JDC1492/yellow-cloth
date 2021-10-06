@@ -39,6 +39,7 @@ export function dayRate(ratePerHour) {
  */
 export function monthRate(ratePerHour, discount) {
   // throw new Error("Implement the monthRate function");
+  return Math.ceil(applyDiscount(dayRate(ratePerHour) * 22, discount));
 }
 
 /**
@@ -61,5 +62,6 @@ export function daysInBudget(budget, ratePerHour, discount) {
  * @returns {number} the discounted value
  */
 function applyDiscount(value, percentage) {
+  return value - value * percentage;
   throw new Error("Implement the applyDiscount function");
 }
